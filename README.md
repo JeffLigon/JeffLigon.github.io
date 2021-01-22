@@ -7,7 +7,9 @@ This is an example website built from a template from https://templated.co/fullm
 
 Introduction
 - (00:34) Creating a website
+    - notes from this step
 - (38:41) Getting a custom URL
+    - notes from this step
 - (42:45) Getting web hosting
 - (48:25) Creating a custom email address
 - (48:25) Updating Nameservers
