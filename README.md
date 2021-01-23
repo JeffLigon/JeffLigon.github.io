@@ -8,6 +8,7 @@ This is an example website built from a template from https://templated.co/fullm
 Introduction
 - (00:34) Creating a website
     - notes from this step
+    - default thumbnail URL for YouYube videos is: https://img.youtube.com/vi/aHjpOzsQ9YI/hqdefault.jpg 
 - (38:41) Getting a custom URL
     - notes from this step
 - (42:45) Getting web hosting
