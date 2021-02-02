@@ -28,6 +28,7 @@ Introduction
     - test website at http://4.28.45.252:1882/ and http://pluto.cloudns.cl:1882/
          - This worked but removed link from cloudns to 4.28.45.252 after.
 - (51:35) Hosting for free with GitHub Pages
+         - Now pushing to https://github.com/JeffLigon/JeffLigon.github.io
 - (56:08) Updating DNS Settings
 - (59:15) Conclusion
 
