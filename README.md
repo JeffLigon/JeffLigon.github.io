@@ -30,6 +30,7 @@ Introduction
 - (51:35) Hosting for free with GitHub Pages
     - Now pushing to https://github.com/JeffLigon/JeffLigon.github.io
     - Test website at:  https://jeffligon.github.io/
+    - changed domain in GitHub to point to custom domain name so now works at http://pluto.cloudns.cl/
 - (56:08) Updating DNS Settings
 - (59:15) Conclusion
 
