@@ -29,6 +29,7 @@ Introduction
          - This worked but removed link from cloudns to 4.28.45.252 after.
 - (51:35) Hosting for free with GitHub Pages
     - Now pushing to https://github.com/JeffLigon/JeffLigon.github.io
+    - Test website at:  https://jeffligon.github.io/
 - (56:08) Updating DNS Settings
 - (59:15) Conclusion
 
