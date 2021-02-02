@@ -14,6 +14,19 @@ Introduction
 - (42:45) Getting web hosting
 - (48:25) Creating a custom email address
 - (48:25) Updating Nameservers
+    - signed up for free domain name at https://www.cloudns.net/ -  pluto.cloudns.cl
+    - pointed to IOT1 server at http://4.28.45.252/
+    - synced files to IOT1:
+       rsync -rv /Users/jeligon/OneDrive/Coding/GitHub/templated-fullmotion/ jeff@4.28.45.252:/home/jeff/docker/templated-fullmotion/
+    - created nginx docker container
+         Dockerfile-templated-fullmotion:
+         FROM nginx
+         COPY templated-fullmotion /usr/share/nginx/html
+         docker build -t templated-fullmotion -f Dockerfile-templated-fullmotion .
+    - launch docker container with website:
+         docker run -d -p 1882:80 --restart unless-stopped templated-fullmotion
+    - test website at http://4.28.45.252:1882/ and http://pluto.cloudns.cl:1882/
+         This worked but removed link from cloudns to 4.28.45.252 after.
 - (51:35) Hosting for free with GitHub Pages
 - (56:08) Updating DNS Settings
 - (59:15) Conclusion
